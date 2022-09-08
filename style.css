@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -9,11 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(
-    68.15deg,
-    rgba(3, 66, 3, 0.836) 25%,
-    rgba(4, 54, 12, 0.938)
-  );
+  background: linear-gradient(68.15deg, #2e4034, #168c1e);
 }
 
 .cabecalho {
@@ -34,8 +30,8 @@ body {
 }
 
 .cabecalho-menu-item {
-  font-family: "Righteous", cursive;
-  color: rgb(255, 115, 0);
+  font-family: "Merriweather Sans", sans-serif;
+  color: #f25c05;
   font-weight: 400;
   font-size: 18px;
   text-shadow: 2px 0 #72223c, 0 2px #72223c, 2px 0 #72223c, 0 2px #72223c;
@@ -55,17 +51,17 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-  font-family: "Righteous", cursive;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: 200;
   font-size: 40px;
-  color: rgb(255, 115, 0);
+  color: #f25c05;
 }
 
 .conteudo-principal-escrito-subtitulo {
-  font-family: "Righteous", cursive;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: 300;
   font-size: 28px;
-  color: rgb(255, 115, 0);
+  color: #f25c05;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,13 +70,13 @@ body {
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: rgb(255, 102, 0);
+  background-color: #f25c05;
   width: 50ex;
   height: 42px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  font-family: "Righteous", cursive;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: black;
@@ -102,19 +98,19 @@ body {
 
 .conteudo-secundario-titulo {
   padding-top: 48px;
-  font-family: "Righteous", cursive;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: 400;
   font-size: 32px;
-  color: rgba(255, 118, 38, 0.925);
+  color: #f25c05;
   text-shadow: 2px 0 #72223c, 0 2px #72223c, 2px 0 #72223c, 0 2px #72223c;
   margin-bottom: 16px;
 }
 
 .conteudo-secundario-paragrafo {
-  font-family: "Righteous", cursive;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: rgba(255, 118, 38, 0.925);
+  color: #f25c05;
   text-shadow: -1px 0 #72223c, 0 1px #72223c, 1px 0 #72223c, 0 -1px #72223c;
 }
 
